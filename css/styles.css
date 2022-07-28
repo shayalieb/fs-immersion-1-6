@@ -36,4 +36,5 @@ h1 {
     font-size: 22px;
     transition-duration: 0.5s;
     cursor: pointer;
+    margin: 10px;
 }
