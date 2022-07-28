@@ -24,3 +24,16 @@ h1 {
     text-align: center;
     color: blueviolet;
 }
+
+.button-class {
+    background-color: aquamarine;
+    border: none;
+    color: black;
+    padding: 18px;
+    text-align: center;
+    text-emphasis: none;
+    display: inline-block;
+    font-size: 22px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
