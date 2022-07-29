@@ -41,7 +41,7 @@ function addPokemonListener (button, pokemon) {
   
 //Add show details function
 function showDetails (pokemon) {
-  console.log(pokemon);
+  console.log(pokemon.name);
 }
 
 return {
@@ -49,7 +49,7 @@ return {
     getAll: getAll, //get all the items
     addListItem: addListItem //return the new list item
   };
-  })();
+})();
 
 pokemonRepository.add({name: 'Shmais', height: 7, type: 'Redhead'}); //adding a new pokemon to the array
 
@@ -58,3 +58,4 @@ console.log(pokemonRepository.getAll()); //log the array with the new item
 pokemonRepository.getAll().forEach(function(pokemon) {//Referencing the function 
   pokemonRepository.addListItem(pokemon);//calling the addListItem, and adding (pokemon) to call the function name
 });
+
